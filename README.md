@@ -1,1 +1,1 @@
-EAK- Starter Template with Bootstrap and FA
+Raphael component for EmberJS
