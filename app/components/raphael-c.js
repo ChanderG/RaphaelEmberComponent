@@ -19,9 +19,9 @@ export default Ember.Component.extend({
     var height = this.get('height');  
     var width = this.get('width'); 
     
-    /* Here add your drawing logic etc*/
+    // Here add your drawing logic here 
     
-    /*
+    /* One possible example:
     var circle = canvas.circle(50, 40, 10);
     circle.attr("fill", "#f00");
     circle.attr("stroke", "#fff");
@@ -43,6 +43,8 @@ export default Ember.Component.extend({
     circle4.attr("stroke", "#fff");
     */
 
+
+    //raphael touches demo code
     var background = canvas.rect(0,0, height, width);
     background.attr({fill: "#333", stroke: "#333"}); 
 
