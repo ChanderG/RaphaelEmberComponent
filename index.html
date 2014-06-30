@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Raphael-Ember Component</title>
+  <title>App</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <base href="/raphael-ember-component/"/>
-
-  <link rel="stylesheet" href="/assets/329808d5.app.min.css">
+  <link rel="stylesheet" href="assets/329808d5.app.min.css">
 
   <!-- for more details visit: https://github.com/yeoman/grunt-usemin -->
+
+  <script src="assets/03258c8c.config.min.js"></script>
+
+  <script src="assets/893f318c.vendor.min.js"></script>
+
+  <script src="assets/252abb77.app.min.js"></script>
 
 </head>
 <body>
@@ -22,15 +26,9 @@
       to improve your experience.
     </p>
   <![endif]-->
+
   <script>
-    window.AppENV = {"baseURL":"/raphael-ember-component/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{}};
-    window.EmberENV = window.AppENV.EmberENV;
-  </script>
-  <script src="/assets/03258c8c.config.min.js"></script>
-  <script src="/assets/893f318c.vendor.min.js"></script>
-  <script src="/assets/252abb77.app.min.js"></script>
-  <script>
-    window.App = require('appkit/app')['default'].create(AppENV.APP);
+    window.App = require('appkit/app')['default'].create(ENV.APP);
   </script>
 </body>
 </html>
