@@ -1,6 +1,6 @@
 #Raphael component for EmberJS (WIP)
 
-A Raphael canvas Ember component and simple usuage.
+A [Raphael](http://raphaeljs.com/) canvas Ember component and simple usuage.
 This is an example using the component.
 As such the component provides an interface between Raphael and Ember.
 Project structure is [EAK](https://github.com/stefanpenner/ember-app-kit)
