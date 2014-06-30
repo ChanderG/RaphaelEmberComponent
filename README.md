@@ -14,9 +14,12 @@ Standard EAK instructions.
 ####Usuage
 To use the component in your project, place the following files in the corresponding location:
 
-app/utils/raphaelo.js  - contains the actual raphael object creation
-app/components/raphael-c.js  -  contains the component, add drawing logic here
-app/templates/components/raphael-c.hbs  - just a div to hold the raphael canvas
+app/utils/raphaelo.js  //contains the actual raphael object creation
+
+app/components/raphael-c.js //contains the component, add drawing logic her
+e
+app/templates/components/raphael-c.hbs //just a div to hold the raphael canvas
+
 
 Call the component using:
 ```
